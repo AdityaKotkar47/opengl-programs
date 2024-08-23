@@ -6,11 +6,11 @@ basic programs to practice computer graphics using opengl
 
 ## Code Outputs
 
-- [cube.cpp](./programs/cube.cpp)
+- [cube.cpp](./programs/cube.cpp)\
     ![cube.cpp](./assets/cube.png)
 
-- [simple window](./programs/simple_window.cpp)
+- [simple window](./programs/simple_window.cpp)\
     ![simple window](./assets/simple_window.png)
 
-- [arithmeitic operators](./programs/arithmetic_operators.cpp)
+- [arithmeitic operators](./programs/arithmetic_operators.cpp)\
     ![simple window](./assets/arithmetic_operators.png)
