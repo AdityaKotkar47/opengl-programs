@@ -23,3 +23,12 @@ basic programs to practice computer graphics using opengl
 
 - [star5](./programs/star5.cpp)\
     ![star5](./assets/star5.png)
+
+- [house.cpp](./programs/house.cpp)\
+    ![house.cpp](./assets/house.png)
+
+- [circle](./programs/circle.cpp)\
+    ![circle](./assets/circle.png)
+
+- [linear_alphabets](./programs/linear_alphabets.cpp)\
+    ![linear_alphabets](./assets/linear_alphabets.png)
