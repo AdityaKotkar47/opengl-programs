@@ -9,8 +9,17 @@ basic programs to practice computer graphics using opengl
 - [cube.cpp](./programs/cube.cpp)\
     ![cube.cpp](./assets/cube.png)
 
-- [simple window](./programs/simple_window.cpp)\
-    ![simple window](./assets/simple_window.png)
+- [simple_window](./programs/simple_window.cpp)\
+    ![simple_window](./assets/simple_window.png)
 
-- [arithmeitic operators](./programs/arithmetic_operators.cpp)\
-    ![simple window](./assets/arithmetic_operators.png)
+- [arithmetic_operators](./programs/arithmetic_operators.cpp)\
+    ![arithmetic_operators](./assets/arithmetic_operators.png)
+
+- [star1.cpp](./programs/star1.cpp)\
+    ![star1.cpp](./assets/star1.png)
+
+- [star6](./programs/star6.cpp)\
+    ![star6](./assets/star6.png)
+
+- [star5](./programs/star5.cpp)\
+    ![star5](./assets/star5.png)
