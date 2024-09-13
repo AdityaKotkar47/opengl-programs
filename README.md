@@ -32,3 +32,9 @@ basic programs to practice computer graphics using opengl
 
 - [linear_alphabets](./programs/linear_alphabets.cpp)\
     ![linear_alphabets](./assets/linear_alphabets.png)
+
+- [bresenham_line_algorithm](./programs/bresenham_line_algorithm.cpp)\
+    ![bresenham_line_algorithm](./assets/bresenham_line_algorithm.png)
+
+- [bresenham_circle_algorithm](./programs/bresenham_circle_algorithm.cpp)\
+    ![bresenham_circle_algorithm](./assets/bresenham_circle_algorithm.png)
