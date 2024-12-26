@@ -1,15 +1,16 @@
+
 #include <GL/glut.h>
 
 void init() {
 
     glClearColor(0, 0, 0, 1);
-    gluOrtho2D(0, 500, 0, 500);
     glMatrixMode(GL_PROJECTION);
+    gluOrtho2D(0, 500, 0, 500);
 }
 
-void bresenhamCircle(int xc, int yc, int r) {
+void midpointCircle(int xc, int yc, int r) {
 
-    int x = 0, y = r, d = 3 - 2*r;
+    int x = 0, y = r, d = 1 - r;
 
     glBegin(GL_POINTS);
     while (x <= y) {
@@ -24,10 +25,10 @@ void bresenhamCircle(int xc, int yc, int r) {
         glVertex2i(xc - y, yc + x); // VIII
 
         if (d < 0) {
-            d += 4*x + 6;
+            d += 2*x + 3;
         }
         else {
-            d += 4*(x-y) + 10;
+            d += 2*(x-y) + 5;
             y--;
         }
         x++;
@@ -39,7 +40,7 @@ void display() {
 
     glClear(GL_COLOR_BUFFER_BIT);
 
-    bresenhamCircle(250, 250, 100); // replace values here to use as a function
+    midpointCircle(250, 250, 100); // replace values here to use as a function
 
     glFlush();
 }
@@ -50,7 +51,7 @@ int main(int argc, char** argv) {
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowPosition(0, 0);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("bresenham circle");
+    glutCreateWindow("midpoint circle");
     glutDisplayFunc(display);
     init();
     glutMainLoop();

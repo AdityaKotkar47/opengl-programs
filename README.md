@@ -38,3 +38,6 @@ basic programs to practice computer graphics using opengl
 
 - [bresenham_circle_algorithm](./programs/bresenham_circle_algorithm.cpp)\
     ![bresenham_circle_algorithm](./assets/bresenham_circle_algorithm.png)
+
+- [cohen_sutherland_algorithm](./programs/cohen_sutherland_algorithm.cpp)\
+    ![cohen_sutherland_algorithm](./assets/cohen_sutherland_algorithm.png)
